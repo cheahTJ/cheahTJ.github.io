@@ -1,0 +1,14 @@
+Moraine Lake terrain study
+
+Terrain Tiles was accessed on 2026-09-11 from https://registry.opendata.aws/terrain-tiles/
+Mapzen / Tilezen terrain data. Canada terrain data contains information licensed under the Open Government Licence – Canada: https://open.canada.ca/en/open-government-licence-canada
+Global SRTM and GMTED2010 terrain data courtesy of the U.S. Geological Survey.
+Attribution details: https://github.com/tilezen/joerd/blob/master/docs/attribution.md
+
+Measured elevation forms the model. Surface appearance, vegetation, water and footpath are artistic additions. This is a portfolio scene, not a navigation map.
+
+Satellite surface: Contains modified Copernicus Sentinel data (2025). Processed by Element 84. Scene S2C_11UNS_20250823_0_L2A, 23 August 2025. Cropped, reprojected, colour graded and sharpened.
+https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a
+
+Cliff material: Rock Face, Poly Haven, photography by Greg Zaal, processing by Dario Barresi; CC0. https://polyhaven.com/a/rock_face
+Material is mapped at artistic landscape scale and combined with authored limestone, snow and forest albedo.
