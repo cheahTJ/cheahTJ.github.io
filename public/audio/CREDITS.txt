@@ -1,0 +1,7 @@
+Spurs trumpet instrumental
+File: spurs-trumpet.wav
+New arrangement of the traditional public-domain melody When the Saints Go Marching In, also used for the Spurs chant. No vocals. Not the official Tottenham stadium recording.
+Trumpet notes performed by Philharmonia Orchestra musicians; arranged and rendered for this portfolio with gentle stereo reflections.
+Sample source: https://philharmonia.co.uk/resources/sound-samples/
+Terms: samples may be used in musical works, including commercial releases, but must not be redistributed as raw samples or a sampler instrument. Only the finished musical arrangement is distributed here.
+Renderer: scripts/render-trumpet.py. Original samples are not included.
