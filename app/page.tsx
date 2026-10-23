@@ -23,6 +23,7 @@ import { journey } from './journey';
 import figures from './collection.json';
 import DayScene from './DayScene';
 import { createCrowdAudio } from './crowd-audio';
+import SubscriptionDemo from '@/components/work/SubscriptionDemo';
 
 const chapters = [
   'morning',
@@ -577,6 +578,7 @@ export default function Home() {
                   <p className="work-award">{j.highlight}</p>
                 )}
                 <div className="work-tech">{j.tech.join(' · ')}</div>
+                {j.company === 'Ant Group' && <SubscriptionDemo />}
               </TabsContent>
             ))}
             <TabsContent className="work-detail" value="5">

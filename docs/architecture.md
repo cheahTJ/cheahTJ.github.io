@@ -18,6 +18,14 @@ The dialog and tabs use Base UI primitives through `components/ui`. Keep keyboar
 navigation, focus management and Escape dismissal when changing the work reader.
 The résumé remains available at `/cheah-tze-juen-resume.pdf`.
 
+## Interactive work demo
+
+The Ant Group entry mounts `components/work/SubscriptionDemo.tsx` as an optional
+native disclosure. Its pure state transitions live in `lib/subscription-clock.ts`,
+separate from React and the 3D scene. Clock changes process every due event in
+order; all data and payments are fictional and local. See
+[the demo notes](subscription-demo.md) for rules and verification.
+
 ## Scene lifecycle
 
 `app/DayScene.tsx` dynamically imports Three.js and its GLTF and Draco loaders,

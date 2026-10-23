@@ -39,7 +39,8 @@ app/
   layout.tsx             Document metadata
   globals.css            Shared styles and responsive layouts
 components/ui/           Shared button, dialog and tab primitives
-lib/utils.ts             Class-name utility
+components/work/         Interactive subscription clock demo
+lib/                     Shared utilities and subscription simulation rules
 public/
   models/                Six GLB scenes, fallback renders and terrain credits
   images/                Portrait
@@ -62,13 +63,15 @@ npm run format    # Apply formatting when editing
 ```
 
 Tests cover squash rally continuity, two full football teams and in-bounds motion,
-and trumpet playback, muting and resource cleanup. Visual verification is still
+trumpet playback, muting and resource cleanup, and subscription clock boundaries,
+retries and billing dates. Visual verification is still
 needed for model, layout or animation changes.
 
 ## Where to make changes
 
 - **Work experience:** edit `app/journey.ts`. Its order is shared by the work reader
   and the 3D desk monitor. Keep claims grounded in actual experience.
+- **Subscription demo:** see [behavior and code boundaries](docs/subscription-demo.md).
 - **Page copy and interactions:** edit `app/page.tsx`.
 - **Figure names:** edit `app/collection.json`; identifiers must match GLB node names.
 - **Models and camera behavior:** start with `app/DayScene.tsx` and
